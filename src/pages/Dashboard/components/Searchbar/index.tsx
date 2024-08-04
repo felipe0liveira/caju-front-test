@@ -34,6 +34,7 @@ export const SearchBar = ({ onRefresh, onSearch }: SearchBarProps) => {
     if (cpf) {
       onSearch({ cpf: cpf.replace(/\D/g, ""), valid: validateCPF(cpf) });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cpf]);
 
   return (

@@ -141,7 +141,7 @@ const DashboardPage = () => {
       });
       history.replace({ search: "" });
     }
-  }, [history.location.search]);
+  }, [history]);
 
   useEffect(() => {
     if (

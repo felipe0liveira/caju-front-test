@@ -1,6 +1,6 @@
 import DashboardPage from ".";
 import { render } from "@testing-library/react";
-import { describe, test, expect, jest } from "@jest/globals";
+import { describe, test, expect } from "@jest/globals";
 import { BrowserRouter } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "react-query";
 
